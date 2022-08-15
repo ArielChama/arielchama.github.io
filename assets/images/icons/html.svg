@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="173" viewBox="0 0 166 173">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6bf9f"/>
+      <stop offset="1" stop-color="#dc8cdb"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_26" data-name="Grupo 26" transform="translate(-6507 -2157)">
+    <rect id="Retângulo_29" data-name="Retângulo 29" width="166" height="173" rx="38" transform="translate(6507 2157)" fill="url(#linear-gradient)"/>
+    <path id="html5" d="M0,32l9.089,97.183L49.87,142l41.042-12.817L100,32ZM80.26,63.4H32.4l1.068,12.129H79.193l-3.542,36.437L50.156,118.6v.074H49.87l-25.7-6.7L22.6,93.359H35.026l.911,9.355,13.932,3.56,13.984-3.56,1.562-15.272H21.953L18.62,51.692H81.406Z" transform="translate(6540 2156.5)" fill="#fff"/>
+  </g>
+</svg>

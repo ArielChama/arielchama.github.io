@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+  margin: 0cm;
+  padding: 0cm;
+}
+
+body {
+  background-color: #142136;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(221, 221, 221);
+}
+
+p {
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0rem 1rem 0rem;
+  flex-wrap: wrap;
+}
+
+.menuItem {
+  margin-right: 2rem;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#myName::after {
+  content: '|';
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.subTitle {
+  font-size: 23px;
+}
+
+.phraseBottom {
+  font-size: 15px;
+}
+
+.mb {
+  margin-bottom: 1.3rem;
+}
+
+.mr {
+  margin-right: 1.3rem;
+}
+
+.button {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  background: #F6BF9F;
+  border: transparent;
+  padding: 0.6rem 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.button:hover {
+  background: #d39e80;
+  color: #fff;
+}
+
+.buttonOutline {
+  display: inline-block;
+  color: #F6BF9F;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #F6BF9F;
+  padding: 0.6rem 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonOutline:hover {
+  color: #fff;
+  background-color: #F6BF9F;
+}
+
+/*
+  Main section
+*/
+.firstSection {
+  text-align: center;
+  padding: 14rem 0rem 10rem 0rem;
+}
+
+.lineBottom {
+  display: inline-block;
+  background-color: #F6BF9F;
+  width: 4rem;
+  height: 0.2rem;
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.iconSocialNetwork {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 1rem 0.5rem;
+}
+
+/*
+  About me
+*/
+
+.secondSection {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0rem 10rem 0rem;
+  flex-wrap: wrap;
+}
+
+.colImage {
+  width: 20rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.colImage img {
+  width: 100%;
+}
+
+.colText {
+  width: 33rem;
+  padding-top: 1rem;
+}
+
+/*
+  Skills
+*/
+
+.thirdSection {
+  padding: 10rem 0rem 10rem 0rem;
+}
+
+.iconSkill {
+  width: 100px;
+  height: 100px;
+  margin: 0.5rem;
+}
+
+.iconsContainer {
+  text-align: center;
+}
+
+/*
+  Projects
+*/
+
+.fourthSection {
+  padding: 10rem 0rem 10rem 0rem;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tabs__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #142136;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.tabs__toggle {
+  margin: 0 5px;
+  padding: 7px 25px;
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.tabs__name {
+  font-weight: bold;
+  font-size: 14px;
+  color: #F6BF9F;
+}
+
+.tabs__body {
+  border-radius: 25px;
+  position: relative;
+}
+
+.tabs__content {
+  display: none;
+}
+
+.tabs__toggle.is-active {
+  background: #F6BF9F;
+}
+
+.tabs__toggle.is-active .tabs__name {
+  color: #ffffff;
+}
+
+.tabs__content.is-active {
+  display: block;
+}
+
+.cardsContainer {
+  display: flex;
+  margin: 4rem 0rem 0rem 0rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardProject {
+  margin: 10px;
+}
+
+.cardProjectBody {
+  width: 19rem;
+  padding: 20px;
+  background-color: #24334b;
+  border-radius: 5px;
+}
+
+.cardProjectBody img {
+  width: 100%;
+  height: 140px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.cardProjectBody p {
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
+
+/*
+  Carousel for testimonials
+*/
+
+.fifthSection {
+  padding: 10rem 0rem 10rem 0rem;
+}
+
+.cardTestimonial {
+  display: flex;
+  justify-content: center;
+}
+
+.cardTestimonialBody {
+  width: 40rem;
+  height: 12rem;
+  background-color: #24334b;
+  border-radius: 5px;
+  padding: 2rem;
+  text-align: start;
+}
+
+.cardTestimonialBody p {
+  font-size: 16px;
+  margin-top: 1rem;
+}
+
+
+/*
+  Forms
+*/
+.sixthSection {
+  display: flex;
+  justify-content: start;
+  padding: 10rem 0rem 10rem 0rem;
+}
+
+.fornmsContainer input, .fornmsContainer textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #24334b;
+  background-clip: padding-box;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formsRow {
+  display: flex;
+}
+
+
+@media (max-width: 750px) {
+  .container {
+    padding: 0rem 1rem 0rem 1rem;
+  }
+}
+
+@media (max-width: 533px) {
+  .cardTestimonialBody {
+    width: 40rem;
+    height: 15rem;
+  }
+}

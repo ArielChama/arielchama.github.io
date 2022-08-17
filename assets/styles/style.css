@@ -85,7 +85,7 @@ p {
   display: inline-block;
   color: #fff;
   text-align: center;
-  background: #F6BF9F;
+  background: linear-gradient(#DC8CDB, #F6BF9F);
   border: transparent;
   padding: 0.6rem 1rem;
   font-size: 15px;
@@ -96,7 +96,7 @@ p {
 }
 
 .button:hover {
-  background: #d39e80;
+  background: linear-gradient(#b469b3, #af8369);
   color: #fff;
   transition: all 0.5s;
   padding: 0.6rem 3rem 0.6rem 1rem;
@@ -241,7 +241,7 @@ p {
 }
 
 .tabs__toggle.is-active {
-  background: #F6BF9F;
+  background: linear-gradient(#DC8CDB, #F6BF9F);
 }
 
 .tabs__toggle.is-active .tabs__name {

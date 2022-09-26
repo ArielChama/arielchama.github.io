@@ -33,11 +33,20 @@ p {
   font-size: 20px;
 }
 
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .menuContainer {
   display: flex;
   justify-content: center;
   padding: 1rem 0rem 1rem 0rem;
   flex-wrap: wrap;
+  background-color: #142136;
 }
 
 .menuItem {
@@ -169,6 +178,7 @@ p {
 .colImage img {
   width: 100%;
 }
+
 
 .colText {
   width: 33rem;
@@ -350,5 +360,22 @@ p {
   .cardTestimonialBody {
     width: 40rem;
     height: 15rem;
+  }
+}
+
+@media (min-width: 952px) {
+  .colImage img {
+    animation: image 2s ease-in-out infinite;
+  }
+  
+  @keyframes image {
+    0%, 100%  {
+      transform: translateY(60px);
+    }
+  
+    50% {
+      transform: translateY(0px);
+    }
+  
   }
 }

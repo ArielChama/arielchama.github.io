@@ -205,6 +205,7 @@ p {
 .skillsContainer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .skillCard {
@@ -217,10 +218,6 @@ p {
 .skillCard h3 {
   font-size: 19px;
   text-align: center;
-}
-
-.skillCard ul {
-
 }
 
 .skillCard li {
@@ -388,6 +385,11 @@ p {
   .cardTestimonialBody {
     width: 40rem;
     height: 15rem;
+  }
+
+  .skillCard {
+    width: 100%;
+    margin-bottom: 2rem;
   }
 }
 

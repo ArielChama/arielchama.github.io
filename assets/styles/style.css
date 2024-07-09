@@ -44,6 +44,7 @@ p {
 .menuContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 1rem 0rem 1rem 0rem;
   flex-wrap: wrap;
   background-color: #0B111E;
